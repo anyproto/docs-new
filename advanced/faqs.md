@@ -170,13 +170,13 @@ Unless they are all part of the same local network, guests will need to be conne
 <summary>What are some of the things that are not yet supported on mobile?</summary>
 
 * Columns
-* [#inline-latex](feature-list-by-platform/other-features.md#inline-latex "mention")
-* [#inline-queries-collections](feature-list-by-platform/other-features.md#inline-queries-collections "mention")
+* Inline LaTeX
+* [inline-queries.md](feature-list-by-platform/inline-queries.md "mention")
 * Kanban, Calendar, and Graph Views
-* [#simple-formulas](feature-list-by-platform/other-features.md#simple-formulas "mention")
-* [#embed-blocks](feature-list-by-platform/other-features.md#embed-blocks "mention")
+* [formulas.md](feature-list-by-platform/formulas.md "mention")
+* [embeds.md](feature-list-by-platform/embeds.md "mention")
 * [custom-css.md](feature-list-by-platform/custom-css.md "mention")
-* [#custom-storage-location](feature-list-by-platform/other-features.md#custom-storage-location "mention")
+* [storage-location.md](feature-list-by-platform/storage-location.md "mention")
 * [graph.md](feature-list-by-platform/graph.md "mention") & Flow
 * [import-export](data-and-security/import-export/ "mention")
 * PIN Code
