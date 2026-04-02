@@ -2,21 +2,25 @@
 
 ### What is an Object?
 
-Forget what you already know about knowledge management tools.
+In Anytype, **everything you create is an Object**. A page is an Object. A task is an Object. A note, a bookmark, a person, a recipe — all Objects.
 
-At Anytype we have created the concept that everything you create is an Object. Pages, Notes, Recipes, Books, Movies, Audio, Humans, _everything!_
+If you've used other tools, you might be used to thinking in terms of files, documents, or database rows. In Anytype, there's just one concept: Objects. This keeps things simple — whether you're writing a journal entry or tracking a project, you're always working with the same building block.
 
-These are all **Objects** that are organized and categorized by **Types**.
+### Why it matters
 
-You can connect different **Types** by **Properties** and see how this is visualized on the **Graph**.
+Because everything is an Object, everything can connect to everything else. A task can link to a person. A meeting note can link to a project. You're building a **graph** of interconnected information rather than organizing files into folders.
 
-You will see in your **Settings** that you can create new Types.
+This means you don't have to decide upfront where something "lives." You create it, give it a Type (like Note or Task), add Properties (like a due date or a tag), and link it to other Objects. The structure emerges from the connections you make.
 
-In short, an Object is a generalizing term for what you are creating. If it is a page, note, or other Type that you have created.
+### How it works
 
-The Object will be organized by the Type of object that it is.
+Every Object has:
+- A **Type** that describes what kind of thing it is (Note, Task, Book, etc.) — see [Types](../types/README.md)
+- **Properties** that hold its details (status, date, author, etc.) — see [Properties](../types/relations.md)
+- **Blocks** that make up its content (text, images, embeds, etc.) — see [Blocks](blocks.md)
+- **Links** to other Objects — see [Links](linking-objects.md)
 
-It is any node in your graph. The smallest linkable unit. Still classified with types.
+You can think of an Object as a flexible document that also acts as a node in your knowledge graph.
 
 ### Ways to Create Objects
 
@@ -74,3 +78,7 @@ To navigate to the search, either head to your sidebar, and click on the search 
 #### Bin
 
 If you've previously removed some objects from your [space.md](../vault-and-key/space.md "mention"), they will appear in your [finding-your-objects.md](../../advanced/data-and-security/data-storage-and-deletion/finding-your-objects.md "mention") unless you've already permanently deleted them.
+
+{% hint style="info" %}
+**Tip:** Don't worry about getting the Type right when you first create an Object. You can always change an Object's Type later from the Type menu at the top of the editor.
+{% endhint %}
