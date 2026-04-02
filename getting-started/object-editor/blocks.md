@@ -1,8 +1,27 @@
 # Blocks
 
-Your object is made up of different types of blocks to organize your information, and the place where all of these Blocks live together is called the Canvas. Anytype's block-based editor works very similarly to that of blogging sites or website builders.
+### What are Blocks?
 
-All block styles originate from the command menu, which you can access by either clicking on the orange `+` symbol on the left-hand side of your editor, or typing `/`.&#x20;
+**Blocks** are the building pieces of every Object. When you open an Object and start editing, you're adding and arranging Blocks — text, headings, images, embeds, lists, and more.
+
+If you've used tools like Notion or WordPress, this will feel familiar: each piece of content is a separate block that you can move, restyle, or rearrange independently.
+
+### Why they matter
+
+Blocks give you flexibility in how you structure your content. Instead of a rigid document format, you can mix and match different content types — drop an image between paragraphs, embed a video next to a checklist, or create multi-column layouts by dragging blocks side by side.
+
+### Block types at a glance
+
+The most commonly used blocks include:
+
+- **Text** — paragraphs, headings (H1, H2, H3), quotes, callouts
+- **Lists** — bullets, numbered lists, checklists / to-dos
+- **Media** — images, video, audio, files
+- **Embeds** — YouTube, Miro, Google Maps, Mermaid diagrams (see [Embeds](../../advanced/feature-list-by-platform/embeds.md))
+- **Links** — link to another Object as a card or inline mention (see [Links](linking-objects.md))
+- **Layout** — dividers, columns (created by dragging blocks side by side)
+
+All block types are accessible from the command menu — click the orange `+` on the left side of the editor, or type `/`.
 
 <figure><img src="../../.gitbook/assets/image (45) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
