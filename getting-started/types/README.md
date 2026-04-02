@@ -1,28 +1,23 @@
 # Types
 
-Just as in the physical world, Types are useful for defining Objects which are categorically different from one another.
+### What is a Type?
 
-A banana is something inherently different from a sofa. Its functions, properties, and relationships to other objects is more similar to those of apples and oranges, rather than sofas. For this reason, we might categorize apples, oranges, and bananas as _fruit_, whereas sofas would fall into a different category: that of _furniture._
+A **Type** describes what kind of Object something is. Notes, Tasks, Books, People, Projects — these are all Types. When you create an Object, you choose a Type for it, which determines what Properties it starts with and how it can be displayed.
 
-By the same principle, in Anytype there are two important concepts to keep in mind:
+### Why it matters
 
-1\) Every object has a Type, which is defined at the time of Object creation (and can be changed later)
+Types help you categorize and find your Objects. When you have hundreds of Objects, being able to filter by Type — "show me all my Tasks" or "show me all my Books" — makes your information manageable.
 
-2\) Different Types are used to define Objects which are categorically different from each other
+### How it works
 
-Colleagues, friends, and neighbors might all be considered type: _Human_ in your Anytype graph. Here are other examples of Types you might have in your graph:
+Every Object has exactly one Type, chosen when you create it (you can change it later). Anytype comes with built-in Types like Note, Task, and Page. You can also create your own Types to match your needs.
 
-* Task
-* Note
-* Book
-* Movie
-* Idea
+Each Type can have:
+- **Default Properties** — automatically included when you create an Object of this Type
+- **Templates** — pre-filled layouts for faster Object creation (see [Templates](templates.md))
+- **A built-in Query** — open any Type to see all Objects of that Type
 
-It's up to you how narrow or broad you'd like your Types to be, but generally we recommend using general Types for categorizing your Objects, and further refining the use of your Types through [templates.md](templates.md "mention").
-
-You can always view and manage your Types in your channel settings under the Content model section [#object-types](../../advanced/settings/space-settings.md#object-types "mention")
-
-Additionally, each Type has an in-built Query which can be accessed by opening the Type from anywhere in the app.
+You can view and manage your Types in your Channel settings under `Content Model > Object Types`.
 
 <figure><img src="../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
