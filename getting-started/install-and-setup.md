@@ -53,3 +53,13 @@ To log in using the QR code, simply navigate to [#login-key](../advanced/setting
 ### Import
 
 If you would like to import some of your existing data into your Space, you can find the instructions on how to do so in [#import](../advanced/data-and-security/import-export/#import "mention").
+
+### What to expect after install
+
+Once you've created your Vault and saved your Key, you'll land in your first Channel with a clean workspace. From here you can:
+
+- **Create your first Object** — click the + button in the sidebar to start a new Note, Task, or Page
+- **Explore the sidebar** — your Objects are organized by Type in the left panel
+- **Check out the command menu** — type `/` inside any Object to see all available block types and actions
+
+If you'd like a quick overview of how Anytype's core concepts fit together, start with [Learn the Model](learn-the-model.md).

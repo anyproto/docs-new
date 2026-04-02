@@ -35,3 +35,17 @@ Regular objects can choose between compact and tree layouts, while queries and c
 Selecting the object layout allows you to choose any view from that particular query/collection, and it will also follow that view's layout.
 
 <figure><img src="../.gitbook/assets/e470b74a31cba9b89fb8f3f4adeadb22149b3a92.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+### Tips for organizing your sidebar
+
+{% hint style="info" %}
+**Pin your most-used Objects.** If you find yourself searching for the same Query, Collection, or page repeatedly, pin it to the Pinned section for one-click access.
+{% endhint %}
+
+{% hint style="info" %}
+**Use Queries as sidebar widgets.** Pin a Query filtered to show "In Progress" tasks or "This Week's Notes" — it acts like a dynamic folder that updates itself.
+{% endhint %}
+
+{% hint style="info" %}
+**Keep it lean.** You don't need everything pinned. The Objects section already groups all your items by Type, so only pin the things you reach for daily.
+{% endhint %}
