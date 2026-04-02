@@ -1,8 +1,24 @@
 ---
-Description: How to link your Objects with Relations or Simple Links.
+Description: How to link your Objects together.
 ---
 
 # Links
+
+### Why link things?
+
+Linking is what turns a collection of separate notes into a connected knowledge base. When you link Object A to Object B, you're saying "these are related" — and that relationship becomes visible in your Graph, in backlinks, and in the Flow view.
+
+Over time, these connections become incredibly valuable. You can trace how ideas relate, see what's connected to a project, or discover patterns you didn't plan for.
+
+### Three ways to link
+
+Anytype offers three ways to create links, each useful in different situations:
+
+| Method | What it does | Best for |
+|--------|-------------|----------|
+| **Block Links** | Adds a visible card or text link to another Object | Prominent references you want readers to see |
+| **Inline Links** | Inserts a mention (@) inside your text | Casual references within a sentence |
+| **Property Links** | Connects Objects through a typed Property | Structured relationships (e.g., Task → Project) |
 
 ### Creating New Links
 
