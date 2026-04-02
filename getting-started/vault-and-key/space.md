@@ -1,21 +1,45 @@
 # Channels
 
-Inside your Vault, you have **Channels**. A **Channel** is a container for your graph of objects.
+### What is a Channel?
 
-Similar to a vault, a channel is an encrypted container. Unlike your vault, each channel has unique access rights, you can decide who has access to each channel.
+A **Channel** is a workspace inside your Vault. Each Channel has its own set of Objects, its own sidebar, and its own sharing settings. Everything you create — notes, tasks, collections — belongs to a specific Channel.
 
-You’re able to create multiple separate channels, each with their own graph of objects, sidebar, and privacy settings.
+Think of Channels like separate rooms in a house. Your Vault is the house, and each Channel is a room with its own purpose and its own door you can choose to open (or not) to others.
+
+### Why it matters
+
+Channels let you separate different parts of your life. You might keep a personal Channel for private notes and journals, a shared Channel for a project with collaborators, and another for a community or team. Each one is independent — Objects, Types, and Properties in one Channel don't affect another.
+
+Because each Channel is encrypted separately, you have fine-grained control over who can see what.
+
+### How it works
+
+Every Channel has its own:
+- **Graph of Objects** — the notes, tasks, and everything else you create
+- **Sidebar** — customized to show what matters in that workspace
+- **Members & permissions** — you decide who can view or edit
+
+You can create as many Channels as you need. Use the vault sidebar (the leftmost panel) to switch between them.
 
 <figure><img src="../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-It's currently impossible to recover deleted channels unless you've previously exported them, so be careful when deleting them.
+It's currently impossible to recover deleted Channels unless you've previously exported them, so be careful when deleting them.
 {% endhint %}
 
-Use the vault sidebar to navigate between your existing channels.
+### Setting up a shared Channel
 
-To create a new channel, simply click on the plus button in the top right corner of the channels sidebar:
+1. Click the **+** button in the top right corner of the vault sidebar to create a new Channel.
+2. Give it a name that describes its purpose (e.g., "Family", "Design Team", "Book Club").
+3. Open the Channel, then go to **Channel Settings > Members**.
+4. Generate an invite link — you can choose between Editor, Viewer, or Request Access.
+5. Share the link with the people you want to invite.
+6. Once they join, you'll see them in the Members list where you can manage their roles.
 
 <figure><img src="../../.gitbook/assets/image (47).png" alt="" width="333"><figcaption></figcaption></figure>
 
-If you would like to customize or delete your channel, please take a look at [space-settings.md](../../advanced/settings/space-settings.md "mention").
+{% hint style="info" %}
+Each Channel has its own content model (Types and Properties). If you've set up custom Types in one Channel, they won't automatically appear in another — you'll need to recreate them or use the Experience Gallery to import a template.
+{% endhint %}
+
+If you would like to customize or delete your Channel, please take a look at [Channel Settings](../../advanced/settings/space-settings.md).
