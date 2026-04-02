@@ -23,3 +23,15 @@ We also support styling individual characters / words inside text blocks.
 You can use the grey 'handle' to the left of each block to create parent/child blocks or new columns in your editor by dragging and dropping them.
 
 <div><figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure></div>
+
+### Inline LaTeX
+
+You can add mathematical notation right into your text by wrapping your formulas with `$` symbols, making it possible to include complex equations and formulas.
+
+<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+
+### Table of Contents
+
+A Table of Contents menu on the right side of the editor makes it easier to navigate and manage long pages. For a steady overview while editing, you can also open it in the sidebar.
+
+{% embed url="https://drive.google.com/file/d/1c-ZZEazJN1SRRtq1JrtaTIcJlTLtms5j/view?usp=drive_link" %}
