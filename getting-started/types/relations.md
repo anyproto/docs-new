@@ -1,16 +1,43 @@
 # Properties
 
-Properties are key to organizing and connecting your Objects and knowledge in Anytype. There are two functions that Properties serve in Anytype:
+### What are Properties?
 
-* **Defining attributes:** You can use Properties to define the characteristics of a certain Object.
-  * For example, when creating a Task in Anytype, you can add Properties such as _Status_: Done/Not Done, or _Priority_: Low, Medium, or High.
-  * If we were to imagine a database, Properties represent the column headers to each row (where column A represents the Object name, and where each row represents an Object).
-  * Once you have set your attributes, it becomes possible to sort and filter your Objects according to the Properties you've defined in your Query.
-* **Defining connections:** You can also use Properties to link one Object to another.
-  * Returning to the example of a Task, you can add the Property: _Linked Projects,_ and connect another Object in your Anytype to this task.
-  * As above, you can view the Linked Projects as Properties in a Query, or in your Graph.
+**Properties** are the details you attach to an Object. If an Object is a "thing" in Anytype, Properties are what you know *about* that thing — its status, due date, author, priority, tags, or any other attribute you care about.
+
+### Why they matter
+
+Properties turn your Objects from plain documents into structured data. Once your Objects have Properties, you can sort, filter, and query them — like finding all Tasks with Priority set to High, or all Books where Status is "Reading."
+
+### How it works
+
+Properties serve two functions:
+
+**1. Describing an Object (attributes)**
+Add details like Status, Priority, Due Date, or Rating. For example, a Task might have:
+- Status: In Progress
+- Priority: High
+- Due Date: Next Friday
+
+**2. Connecting Objects (relations)**
+Link one Object to another through a Property. For example, a Task might have:
+- Assigned To: → Alex (a Person object)
+- Project: → Website Redesign (a Project object)
+
+These connections show up in your Graph, making it easy to see how your information relates.
 
 <figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+
+### Worked example: Setting up a reading list
+
+Let's say you have several Book objects and want to track your reading:
+
+1. Open any Book object and click the Properties icon (bullet list) in the top right corner.
+2. Add a **Select** property called "Status" with options: Want to Read, Reading, Finished.
+3. Add a **Number** property called "Rating" (1-5).
+4. Add an **Object** property called "Recommended By" and link it to a Person object.
+5. Now open a Query filtered by Type: Book. Toggle on your new Properties — you'll see them as columns, and you can sort by Rating or filter by Status.
+
+This same pattern works for any Type: define the Properties that matter, then use Queries to slice and view your data.
 
 ### Create a New Property
 

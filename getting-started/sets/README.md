@@ -1,38 +1,51 @@
 # Queries
 
-Lots of people compare Queries with databases, but there's a key difference: Queries don't _store_ Objects like regular databases.
+### What is a Query?
 
-Queries are a way to see a portion of your Graph, and Objects you've created, based on your filtered criteria, and several secondary filters which you can customize. You can think of them as a live filter or query for Objects which share certain criteria - specifically, a Type or a Property.
+A **Query** is a live, filtered view of Objects in your Channel. You define criteria — like "all Tasks" or "all Notes tagged with Design" — and the Query automatically shows every Object that matches. When you create or update Objects that fit the criteria, they appear in the Query automatically.
 
-#### Queries serve two primary functions:
+If you've used spreadsheet filters or smart playlists, Queries work the same way.
 
-1. **Organizing and Accessing Objects**\
-   \
-   We often get requests along the lines of: _How do I find all of the Notes I've created?_\
-   \
-   One easy way is to create a Query based on Type.\
-   For example; Note, which will display every Note you've created in Anytype.\
-   \
-   If you have specific notes you'd like to frequently access, you can filter them based on Properties you've added to these notes.\
-   \
-   For instance: Creation Date, Tags, or Priority.\
-   \
-   You can then create a Widget which will appear in your Sidebar, acting like a folder for all Objects that meet certain criteria.
-2. **Editing Objects**
+### Why it matters
+
+As your Channel grows, you need ways to find and view your Objects without scrolling through everything. Queries let you create focused views — all your in-progress Tasks, all Books you've rated 5 stars, all Notes from this week — and keep them accessible from your sidebar.
+
+### How it works
+
+Queries don't store Objects — they display Objects that match your filters. This means one Object can appear in multiple Queries if it matches their criteria.
+
+Queries serve two main purposes:
+
+**1. Finding and viewing Objects**
+Create a Query filtered by Type (e.g., all Notes) or by Property (e.g., all Objects tagged "Urgent"). Add sorting and additional filters to narrow things down. You can then pin this Query to your sidebar for quick access.
+
+**2. Batch editing Objects**
+In Grid view, you can select multiple Objects and update their Properties at once — change statuses, reassign Types, or delete in bulk.
 
 <figure><img src="../../.gitbook/assets/image (111).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Queries also provide a way to quickly edit Objects in a list View.\
-\
-You can use multi-select in Queries to delete multiple Objects at once, or to batch update Properties / the Object Type of Objects. Any Properties added to a Query in the Property Menu (top right), will be adopted by all new Objects created with the "+ New Object" button.
+### Building your first Query
 
-<div><figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
+Let's create a Query that shows all your Tasks filtered by status:
+
+1. From the sidebar, click the **+** dropdown and choose **Query**, or type `/query` in the editor.
+2. Choose **Query by Type** and select **Task**.
+3. You'll see all Task objects in your Channel listed automatically.
+4. Click the filter icon and add a filter: **Status** → **is** → **In Progress**.
+5. Now only in-progress Tasks are shown. Try switching to Grid view using the layout options to see your Tasks as a table with Property columns.
+6. Pin this Query to your sidebar by opening it and clicking the pin icon — now you have a quick-access view of your active work.
+
+<div><figure><img src="../../.gitbook/assets/image (48).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (113).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+If you want to manually group specific Objects together (regardless of whether they match any filter), use a [Collection](collections.md) instead.
+{% endhint %}
 
 ### Creating Queries
 
 You can create a new Query with the drop-down button from your sidebar or using the / shortcut menu in the editor.
 
-You'll then need to choose if you want a Query by Type which lets you list all of your Objects of a certain Type, or a Query by Property which will list all Objects that contain the Property of your choosing.&#x20;
+You'll then need to choose if you want a Query by Type which lets you list all of your Objects of a certain Type, or a Query by Property which will list all Objects that contain the Property of your choosing.
 
 <div><figure><img src="../../.gitbook/assets/image (48).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (113).png" alt="" width="375"><figcaption></figcaption></figure></div>
 

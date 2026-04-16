@@ -6,6 +6,12 @@ When you create your vault, you will receive your very own 12 word mnemonic phra
 
 Your Key functions as your login and passphrase at the same time. This mnemonic represents your master key generated upon signup, similar to a Bitcoin wallet.
 
+### Why 12 words?
+
+Your Key is a **mnemonic phrase** — a set of common words that represent a long cryptographic key. This is the same approach used by cryptocurrency wallets like Bitcoin. The advantage of words over a random string of characters is that they're easier to write down, read back, and verify.
+
+Behind the scenes, these 12 words encode a unique master key that encrypts and decrypts everything in your Vault. The math behind it means there are more possible combinations than atoms in the observable universe — making it effectively impossible to guess.
+
 Changing it is impossible, and it's extremely important you keep it safe. You can access it at any time by navigating to the Key section in your [account-and-data.md](../../advanced/settings/account-and-data.md "mention").
 
 ### Don't forget to save it!

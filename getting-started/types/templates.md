@@ -1,11 +1,18 @@
 # Templates
 
-Templates are one of our most-beloved ways to work at Anytype, designed to help you scale and personalize your Object creation flows. With Templates, you can:
+### What is a Template?
 
-* Customize the cover or icon you want to use to for certain object Types
-* Automatically re-use the same structure each time you add a new Object
+A **Template** is a pre-filled starting point for an Object. Instead of starting from a blank page every time, you can define a Template with a specific layout, Properties, and content structure — then reuse it whenever you create a new Object of that Type.
 
-Templates are saved on the Type level, and each Type can support multiple Templates. For example, you can have different Templates for different kinds of Books, like academic, fiction, or non-fiction.
+### Why it matters
+
+If you find yourself setting up the same structure repeatedly — for example, every meeting note needs a date, attendees, agenda, and action items — a Template saves you that work. Create the structure once, and it's applied automatically.
+
+### How it works
+
+Templates are saved per Type. Each Type can have multiple Templates. For example, a "Book" Type might have separate Templates for fiction and non-fiction, each with different Properties highlighted.
+
+When you create a new Object, you'll either get the default Template applied automatically, or be asked to choose from available Templates.
 
 ### How to Create a Template
 
