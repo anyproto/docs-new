@@ -1,51 +1,176 @@
+---
+description: How to navigate, customize, and organize the Channel sidebar.
+---
+
 # Sidebar
 
-Your sidebar is divided into three sections:
+### What is the Sidebar?
 
-Your channel widget, which includes the Search button, Members button, and Settings button.
+The **Sidebar** is the main navigation panel for a Channel. It lives on the left side of the window, between your Vault (the leftmost narrow panel showing all Channels) and your editor.
 
-<figure><img src="../.gitbook/assets/image (240).png" alt="" width="331"><figcaption></figcaption></figure>
+The Sidebar is the entry point to almost everything inside a Channel:
 
-The Pinned section where you can find any object that you wish to pin to your sidebar.
+- A **Channel widget** at the top with the Channel's name, search, settings, and members
+- **Pinned and Favorite** sections for quick access
+- **Recently Edited / Recently Opened** for catching up
+- **The Objects section** showing every Object grouped by Type
+- The **Bin** for deleted Objects
+- A **Help** menu in the corner
 
-<figure><img src="../.gitbook/assets/image (241).png" alt="" width="331"><figcaption></figcaption></figure>
+Everything you do in a Channel either starts here or returns here.
 
-The Objects section which allows you to view all your types, and by extension, all your objects.
+### Layout overview
 
-<figure><img src="../.gitbook/assets/image (242).png" alt="" width="328"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (240).png" alt="" width="331"><figcaption><p>Channel widget header</p></figcaption></figure>
 
-### Pinning Objects
+#### Channel widget header
 
-In general, you can pin any object that you've created using the Anytype editor to the sidebar. To do so, navigate to the pin button in the top right corner.
+At the very top, you'll see your Channel name and icon, plus icons for:
 
-<figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+- **Search** (Cmd/Ctrl + K from anywhere) — find any Object in this Channel
+- **Members** — see who's in the Channel and their roles
+- **Settings** — opens Channel Settings
+- **Sync status** — a globe icon showing your network mode (default network, self-hosted, or local-only) with a peer count, plus a red dot if there's a sync issue or notice to review
+- **Recently Opened** — the clock icon at the top opens your history of viewed Objects (this device only)
+- **Notifications** — a bell icon if you have unread notifications
 
-You can unlink them by clicking the same button or right-clicking on them in the pinned section and selecting this option:
+#### Section list
 
-<figure><img src="../.gitbook/assets/image (247).png" alt="" width="375"><figcaption></figcaption></figure>
+Below the header, sections appear in this order by default (you can reorder):
 
-### Adjust your Widget Appearance
+1. **Shared Pins** — Objects pinned by the Owner for everyone
+2. **My Favorites** — your personal favorites
+3. **Recently Edited** — Objects modified recently
+4. **Objects** — all Objects in the Channel grouped by Type
+5. **Bin** — deleted Objects awaiting permanent deletion
 
-Depending on the object type, you can choose from a variety of layouts.
+Each section can be hidden, reordered, or fine-tuned. See [Manage Sidebar Sections](manage-sidebar-sections.md) for details.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt="" width="375"><figcaption></figcaption></figure>
+### Pinning and Favoriting
 
-Regular objects can choose between compact and tree layouts, while queries and collections can choose from compact, list, compact list, or object layouts.
+Anytype has two distinct mechanisms:
 
-Selecting the object layout allows you to choose any view from that particular query/collection, and it will also follow that view's layout.
+- **My Favorites** — personal, visible only to you, on every device you log into
+- **Shared Pins** — public, visible to all members (Owner-only to add)
 
-<figure><img src="../.gitbook/assets/e470b74a31cba9b89fb8f3f4adeadb22149b3a92.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+These appear as separate sections in the sidebar. See [Pins & Favorites](pins-and-favorites.md) for the full breakdown.
 
-### Tips for organizing your sidebar
+#### To favorite or pin an Object
+
+1. Open the Object.
+2. Click the star (favorite) or pin icon in the top-right corner of the editor.
+3. The Object appears in the corresponding sidebar section.
+
+To remove, click the icon again or right-click the item in the sidebar and choose **Remove from Favorites** / **Unpin**.
+
+### Recently Edited
+
+The **Recently Edited** section shows Objects that have been modified recently — useful for picking up where you (or your team) left off.
+
+By default, it shows changes by anyone in the Channel. To narrow it to your changes only:
+
+1. Hover over the **Recently Edited** header.
+2. Click the three-dot menu.
+3. Choose **Only me**.
+
+This is especially useful in busy team Channels where everyone else's edits would otherwise crowd out yours.
+
+### Recently Opened
+
+Click the **clock icon** at the top of the sidebar to open your history of recently viewed Objects in this Channel. This list is per-device — your phone has its own "recently opened" history that doesn't sync to your desktop.
+
+This is the fastest way to backtrack: "I was looking at something twenty minutes ago, what was it?"
+
+### The Objects section
+
+The **Objects** section is the master index of your Channel. It groups every Object by its Type — sub-sections for Notes, Tasks, Books, Pages, every Type that has at least one Object.
+
+Click a Type to open its Type page, which is essentially a built-in Query showing all Objects of that Type. From there you can switch to Grid, Gallery, Board, or any other view.
+
+Inside the Objects section:
+
+#### Quick create
+
+Hover over any Type to reveal a **+** button. Click it to create a new Object of that Type instantly — no menu navigation needed.
+
+#### Reordering Types
+
+Drag a Type's row to reorder. Order is per-member.
+
+#### Hiding empty Types
+
+Only Types that have at least one Object appear here. Create a new Object of a hidden Type, and that Type's section appears automatically. Delete the last Object, and the section disappears.
+
+### Adjusting widget appearance
+
+Every section header has a three-dot menu. Click it to choose how the section's contents are displayed.
+
+For pinned and favorite Objects, you can pick between layouts:
+
+- **Compact** — smallest, just the title and icon
+- **Tree** — shows linked sub-Objects nested under each item
+- **List** — like Compact but with more details
+- **Object** — for pinned Queries/Collections, shows them as embedded views
+
+For Queries and Collections, the **Object** layout lets you choose any saved view to embed in the sidebar — so a pinned `Tasks: In Progress` Query can render as a Board, a Gallery, or a List directly in the sidebar.
+
+<figure><img src="../.gitbook/assets/image (37).png" alt="" width="375"><figcaption><p>Widget appearance options</p></figcaption></figure>
+
+### Sidebar display modes: Widgets vs Links
+
+In **Channel Preferences > Sidebar**, you can switch between two overall display modes:
+
+- **Widgets** (default) — rich previews with icons, descriptions, and inline content
+- **Links** — a compact list of plain links
+
+**Links** view trades visual richness for density — useful in Channels with hundreds of Objects pinned where the rich previews start to feel heavy. You can switch back to Widgets at any time.
+
+### Resizing and collapsing
+
+Drag the right edge of the Sidebar to resize it. You can:
+
+- Make it wider for more space
+- Make it narrower to save space
+- Collapse it entirely by dragging the edge to the left until it disappears
+
+A collapsed sidebar can be restored by hovering over the left edge of the window — the sidebar pops out temporarily. You can also disable this auto-pop in **Vault Settings > Application > Preferences**.
+
+#### Toggle sidebar shortcut
+
+You can assign a keyboard shortcut to toggle both the **Vault** and **Channel sidebar** at once:
+
+1. Open **Vault Settings > Application > Keyboard Shortcuts**.
+2. Find **Toggle Sidebar and Widgets**.
+3. Assign a shortcut.
+
+This is useful for quickly switching to focused mode — hide everything to maximize editor space.
+
+### Sidebar in the Compact Vault stripe view
+
+The **Vault** (the panel to the left of the Channel sidebar) has its own compact mode. Drag the Vault's right edge to make it narrower — past a threshold, it switches to **stripe view**:
+
+- Channel and Chat icons only, no labels
+- Unread counters still visible
+- Mention indicators are hidden (kept only in the regular view)
+- Hover over your profile icon to access Help and Gallery
+- A **+** button appears at the bottom for creating new Channels
+
+Drag the edge wider to return to the regular Vault layout. See [Manage Sidebar Sections](manage-sidebar-sections.md) for more on sidebar customization.
+
+### Tips
 
 {% hint style="info" %}
-**Pin your most-used Objects.** If you find yourself searching for the same Query, Collection, or page repeatedly, pin it to the Pinned section for one-click access.
+**Pin a Query, not just static Objects.** A pinned Query like "Tasks where Status = In Progress" or "Notes where Modified is this week" acts as a live widget — it updates itself as your data changes.
 {% endhint %}
 
 {% hint style="info" %}
-**Use Queries as sidebar widgets.** Pin a Query filtered to show "In Progress" tasks or "This Week's Notes" — it acts like a dynamic folder that updates itself.
+**Keep the Objects section the long-term home, the Pinned section the short-term workspace.** Pin only what you're touching this week. Let the Objects section be the comprehensive index. This way the sidebar stays scannable.
 {% endhint %}
 
 {% hint style="info" %}
-**Keep it lean.** You don't need everything pinned. The Objects section already groups all your items by Type, so only pin the things you reach for daily.
+**Use Tree layout for hierarchical content.** A pinned Project Object using Tree layout shows the project's linked sub-Objects (sub-projects, key documents) inline in the sidebar — like a folder tree.
+{% endhint %}
+
+{% hint style="info" %}
+**Switch to Links mode for archive Channels.** A Channel where you mostly read rather than create can benefit from the denser Links view — you see more at once.
 {% endhint %}
