@@ -16,24 +16,14 @@ This means your information stays private by default — not because of a compan
 
 Your Vault is created the first time you set up Anytype. Along with it, you receive a **Key** — a 12-word phrase that is the only way to access your Vault. Think of it like a master password that can never be changed or reset.
 
+{% hint style="warning" %}
+If you lose your Key and are logged out on all devices, there is no way to recover your Vault. Save your Key somewhere safe. See [Key](key.md) for details.
+{% endhint %}
+
 Inside your Vault, you create **Channels** — separate workspaces for different areas of your life or work. Your personal notes might live in one Channel, while a shared team workspace lives in another. All Channels live inside your single Vault.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
-
-### Your first 5 minutes
-
-Once you've created your Vault and saved your Key:
-
-1. You'll land in your first Channel — this is your default workspace.
-2. Look at the **sidebar** on the left. This is where you'll navigate between your Objects, search, and access settings.
-3. Click the **+** button in the sidebar to create your first Object. Try creating a simple Note.
-4. Type anything you want — the editor works like a document. You can add headings, lists, images, and more using the `/` command menu.
-5. That's it — you've created your first Object inside your Vault. Everything you add from here builds on this foundation.
+<figure><img src="../../.gitbook/assets/channels.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Your Vault syncs across your devices automatically when you're online. You can also work fully offline — changes sync the next time you connect.
-{% endhint %}
-
-{% hint style="warning" %}
-If you lose your Key and are logged out on all devices, there is no way to recover your Vault. Save your Key somewhere safe. See [Key](key.md) for details.
 {% endhint %}
