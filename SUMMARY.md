@@ -12,13 +12,20 @@
 * [Vault](getting-started/vault-and-key/README.md)
   * [Key](getting-started/vault-and-key/key.md)
 * [Channels](getting-started/vault-and-key/space.md)
+  * [Creating a Channel](getting-started/creating-a-channel.md)
 * [Sidebar](getting-started/customize-and-edit-the-sidebar.md)
+  * [Manage Sections](getting-started/manage-sidebar-sections.md)
+  * [Pins & Favorites](getting-started/pins-and-favorites.md)
 
 ## 📝 Objects & Editor
 
 * [Objects](getting-started/object-editor/README.md)
   * [Blocks](getting-started/object-editor/blocks.md)
+    * [Toggled Headings](getting-started/object-editor/toggled-headings.md)
   * [Links](getting-started/object-editor/linking-objects.md)
+  * [Bookmarks](getting-started/bookmarks.md)
+  * [Files & Media](getting-started/files-and-media.md)
+  * [Discussions](getting-started/discussions.md)
 
 ## 🗂️ Organizing Your Data
 
@@ -32,6 +39,8 @@
 
 * [Collaboration](getting-started/collaboration.md)
 * [Chats](getting-started/chats.md)
+  * [Direct Channels](getting-started/direct-channels.md)
+* [Notifications](getting-started/notifications.md)
 * [Publish](getting-started/web-publishing.md)
 
 ## ⚙️ Features
@@ -47,6 +56,7 @@
 * [Storage Location](advanced/feature-list-by-platform/storage-location.md)
 * [Local API](advanced/feature-list-by-platform/local-api/README.md)
   * [Raycast Extension (macOS)](advanced/feature-list-by-platform/raycast-extension-macos.md)
+* [Anytype Agents Skill](advanced/feature-list-by-platform/anytype-agents-skill.md)
 
 ## 🔒 Data & Security
 
