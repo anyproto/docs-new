@@ -33,7 +33,7 @@
   * [Properties](getting-started/types/relations.md)
   * [Templates](getting-started/types/templates.md)
 * [Queries](getting-started/sets/README.md)
-  * [Collections](getting-started/sets/collections.md)
+* [Collections](getting-started/sets/collections.md)
 
 ## 👥 Collaboration
 
