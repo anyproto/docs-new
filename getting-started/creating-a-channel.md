@@ -20,6 +20,8 @@ The Home is the most important choice — it sets the tone for what the Channel 
 
 ### Choosing a Home
 
+<figure><img src="../.gitbook/assets/channel home.png" alt=""><figcaption></figcaption></figure>
+
 Your Home can be any of three things:
 
 | Home Type      | Best for                                                            | What members see when they enter                |
@@ -28,7 +30,7 @@ Your Home can be any of three things:
 | **Page**       | Documentation, wikis, reference Channels, personal notebooks        | A single Object with content and links          |
 | **Collection** | Project Channels with multiple related items                        | A curated list of Objects in your chosen layout |
 
-You can change the Home later in **Channel Settings > Preferences > Homepage** — so don't worry about getting it perfect on day one.
+You can change the Home later in **Channel Settings > General > Homepage** — so don't worry about getting it perfect on day one.
 
 #### When to pick Chat as Home
 
@@ -76,7 +78,7 @@ Once your Channel exists, you'll land on the Home you chose. Some next steps:
 * **Customize the sidebar** — pin important Objects, add widgets. See [Sidebar](customize-and-edit-the-sidebar.md).
 * **Set up Types and Properties** — open Channel Settings > Content Model to create or import Types tailored to this Channel's purpose. See [Types](types/).
 * **Invite members** — open Channel Settings > Members to generate invite links. See [Collaboration](collaboration.md).
-* **Pin a Query or Collection as the Home** later — Channel Settings > Preferences > Homepage lets you change what loads first.
+* **Pin a Query or Collection as the Home** later — Channel Settings > General > Homepage lets you change what loads first.
 
 ### Channels with mixed Homes
 
@@ -87,17 +89,3 @@ Even though you pick one Home, every Channel still has access to the full featur
 * A Collection-Home Channel can still have a primary Chat for the team
 
 The Home is just the **first thing you see**. Everything else is one click away.
-
-### Tips
-
-{% hint style="info" %}
-**Start with a Page Home for personal Channels.** A welcome Page acts as your dashboard — link to your most-used Queries, your daily journal, your active projects. It becomes the front door to that part of your life.
-{% endhint %}
-
-{% hint style="info" %}
-**Start with a Chat Home for team Channels.** Most teams chat far more than they author — a Chat Home meets people where they actually spend time. They can always pin the project board to the sidebar for one-click access.
-{% endhint %}
-
-{% hint style="info" %}
-**A Collection Home is a great launchpad for fixed-scope projects.** A "Q1 Marketing" Channel with a Collection Home that contains every relevant Object means anyone joining the Channel sees the full project in one view.
-{% endhint %}
