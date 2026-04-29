@@ -1,175 +1,160 @@
 ---
-description: Manually-curated groups of Objects.
+description: Hand-curated groupings of Objects.
 ---
 
 # Collections
 
 ### What is a Collection?
 
-A **Collection** is a manual grouping of Objects. You pick which Objects go in, and they stay until you remove them. Unlike Queries — which automatically pull in everything matching certain criteria — Collections start empty and you build them up by hand.
+A **Collection** is a Channel-level container for hand-picked Objects. You decide what goes in. The Objects stay until you remove them. Different Types live side by side — a project Collection might hold tasks, notes, files, and references all in one place.
 
-The key difference: **a Collection can hold Objects of different Types together**. A "Product Launch" Collection might contain tasks, notes, design files, meeting minutes, and reference documents — all in one place.
+### Why Collections matter
 
-### Why it matters
+Most things you organize don't share a clean rule. They belong together because of context: the same project, the same trip, the same person, the same theme. A Collection is the place to gather them.
 
-Sometimes you need to group things that don't share a Type or a clean filter rule. They just belong together because of context — they're all part of the same project, the same trip, the same research effort, the same person's onboarding.
+Collections shine when:
 
-A Query says: "show me everything that matches *X*."
-A Collection says: "show me these specific things, because I said so."
+- **A project mixes Types** — tasks, design files, meeting notes, references all in scope. A "Q1 Marketing" Collection holds them all without forcing them into a single Type.
+- **You're curating, not filtering** — your favorite recipes, your top references, your reading list. These aren't "all books" or "books with rating ≥ 4" — they're the ones you specifically chose.
+- **You want a project hub** — open the Collection and you're inside the project. Add new Objects directly. Pin it to the sidebar for one-click access.
+- **You're onboarding someone** — a Collection of "everything a new team member should see" is hand-picked, not filter-defined.
 
-Both are useful, in different situations. Use Collections for:
-
-- **Project workspaces** — tasks, notes, files, and references for one specific project
-- **Reading lists** — books, articles, bookmarks you've decided to read
-- **Research collections** — papers, notes, web clippings on one topic
-- **Onboarding sets** — every Object a new team member should see
-- **Curated content** — your favorite recipes, your top references, your "best work"
-
-### How it works
+### How a Collection works
 
 A Collection is its own Object. It has:
 
 - **Members** — the Objects you've added (any Type, any number)
-- **Views** — different layouts (Grid, List, Gallery, Board, Calendar) like a Query
-- **Properties** — like any Object, you can give the Collection itself Tags, a description, etc.
+- **Views** — different layouts (Grid, List, Gallery, Board, Calendar) like a Type or Query
+- **Properties** — like any Object, give the Collection itself Tags, a description, anything
 
-Adding an Object to a Collection doesn't move it — the Object still lives wherever it lived before. Collections store *references*. The same Object can appear in multiple Collections without being copied.
+Adding an Object to a Collection doesn't move it. The Object still lives wherever it lived before. Collections store *references*, so the same Object can appear in multiple Collections without being duplicated.
 
-{% hint style="warning" %}
-**The main difference between Queries and Collections** is that Queries draw Objects from your entire graph based on filter criteria, whereas Collections start empty and you add Objects to them manually.
-{% endhint %}
-
-### Building a Collection
+### Creating a Collection
 
 #### From the sidebar
 
 1. Click the **+** dropdown.
 2. Choose **Collection**.
-3. Name the Collection (e.g., "Q1 Marketing").
-4. The empty Collection opens. Add Objects with the **+ New** button or **Existing object** option.
+3. Name it (e.g., "Q1 Marketing").
+4. The empty Collection opens. Add Objects with **+ New** or **Existing object**.
 
 #### From the editor
 
-Type `/collection` in any Object to insert an Inline Collection — embedded right inside the page. It functions the same as a standalone Collection but lives within another Object.
+Type `/collection` in any Object to insert an **Inline Collection** — embedded right inside the page. It works the same as a standalone Collection but lives within another Object.
 
-### Adding Objects to a Collection
+### Adding Objects
 
 #### Create new Objects directly
 
 1. Open the Collection.
-2. Click **New** to create a new Object inside the Collection.
+2. Click **New** to create a new Object inside.
 3. Pick the Type — Tasks, Notes, Pages, anything.
 
-The new Object is created in your Channel and added to the Collection in the same step.
+The new Object is created in your Channel and added to the Collection in one step.
 
 #### Add existing Objects
 
 1. Hover over the **▾** next to the **New** button.
 2. Click **Existing object**.
-3. Search for any Object in your Channel.
-4. Select it.
+3. Search for any Object in your Channel and select it.
 
-The Object is added to the Collection. It still lives in its original location.
+The Object joins the Collection. It still lives in its original location.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### From outside the Collection
 
-Open any Object you want to add. Open the three-dot menu > **Add to Collection** > pick the Collection.
+Open any Object you want to add. Click the three-dot menu > **Add to Collection** > pick the Collection.
 
-This is the fastest path when you're already in an Object and decide it belongs in a Collection.
+This is the fastest path when you've already opened an Object and decide it belongs somewhere.
 
 #### Drop a folder of files
 
-Drag a folder of files from your operating system onto the sidebar. Anytype creates a new Collection that mirrors the folder structure — files become File Objects inside the Collection.
+Drag a folder of files from your operating system onto the sidebar. Anytype creates a new Collection mirroring the folder structure — files become [File Objects](../files-and-media.md) inside.
 
-This is the fastest way to import an existing on-disk archive (a photo collection, a project folder, a music library). See [Files & Media](files-and-media.md) for details on file Objects.
+The fastest way to bring an existing on-disk archive (a photo collection, a project folder, a music library) into your Channel.
 
-### Removing Objects from a Collection
+### Removing Objects
 
 Right-click the Object in the Collection's view > **Remove from Collection**. The Object stays in your Channel — only its membership in this Collection is removed.
 
-To delete the Object entirely, use **Move to Bin** instead. (Removing from Collection ≠ deleting.)
+To delete the Object entirely, use **Move to Bin** instead. Removing from a Collection ≠ deleting.
 
 ### Views in a Collection
 
-Collections support the same View types as Queries: Grid, List, Gallery, Board, Calendar, Graph. Each View can have its own layout, visible Properties, sort, and filters.
+Collections support the same View types as Type pages: Grid, List, Gallery, Board, Calendar, Graph. Each View has its own layout, visible Properties, sort, and filters.
 
-#### Grid as default
-
-New Collections use **Grid** as the default layout. Properties show as columns immediately, making them easier to discover and edit.
+New Collections use **Grid** as the default layout — Properties show as columns immediately.
 
 #### Filters within a Collection
 
-You can apply filters to a Collection's View. Filters narrow down the *members* of the Collection — they don't pull in new Objects. Useful when:
+You can apply filters to a Collection's View. Filters narrow which *members* are shown — they don't pull in new Objects from outside the Collection. Useful when:
 
 - A Collection has many Objects and you want to focus on a subset
-- You want a Board view organized by Status of just the Tasks in a project Collection
+- You want a Board view of just the Tasks in a mixed-Type project Collection
 - You want a Calendar view of just the Date-bearing Objects
 
-For more on filtering, see [Advanced Filters](../feature-list-by-platform/advanced-filters.md).
+For more on filtering, see [Advanced Filters](../../advanced/feature-list-by-platform/advanced-filters.md).
 
 ### Multiple Views per Collection
 
-Like Queries, Collections support multiple Views. A "Q1 Marketing" Collection might have:
+A "Q1 Marketing" Collection might have:
 
 - **Tasks (Board)** — only Tasks, grouped by Status
-- **Documents (Gallery)** — only Documents, with cover images visible
+- **Documents (Gallery)** — only Documents, with cover images
 - **All (Grid)** — everything, sortable
 
-Switch between Views with one click using the View tabs at the top of the Collection.
+Switch between Views with the View tabs at the top.
 
-### Dragging Objects between Views
+### Dragging between Views
 
-Inside a Collection, you can drag an Object between Views. When you drop it into another View, its Properties update to match that View's filters — same as creating a new Object directly in that View.
+Drag an Object from one View to another inside the same Collection. When you drop it into another View, its Properties update to match that View's filters — same as creating a new Object directly there.
 
-For example: drag a task from your "To Do" View to your "Done" View, and the task's Status Property updates to "Done" automatically.
+Drag a task from "To Do" to "Done" and its Status updates automatically.
 
-### Full-text search inside a Collection
+### Full-text search in a Collection
 
-Collections support full-text search across Object **content**, not just titles. Press Cmd/Ctrl + F inside a Collection View to search.
+Collections support full-text search across Object **content**, not just titles. Press Cmd/Ctrl + F inside a Collection View.
 
-This is the fastest way to find "the Object I added to this Collection that mentions X" without having to open each one.
+The fastest way to find "the Object I added that mentions X" without opening each one.
 
 ### Inline Collections
 
-You can embed a Collection directly inside another Object using `/collection > Inline`. The Collection becomes a block in the editor — you can add Objects to it from within that page.
+Embed a Collection inside another Object using `/collection > Inline`. The Collection becomes a block in the editor — add Objects to it from within that page.
 
-This pattern works well for:
+This works well for:
 
 - Project hub pages with an inline Collection of project Objects
 - Reference pages with curated Object lists embedded in context
-- Templates where the Inline Collection holds the structure-relevant Objects
+- Templates where the inline Collection holds the structure-relevant Objects
 
-See [Inline Queries](../feature-list-by-platform/inline-queries.md) — Inline Collections work the same way.
+### Collections vs Queries
 
-### Collections vs Queries: when to use which
+The two are easy to confuse, so it's worth being explicit:
 
-| | Use a Collection | Use a Query |
+| | Collection | Query |
 |---|---|---|
-| You want to manually pick what's in | ✓ | |
-| You want auto-population by criteria | | ✓ |
-| Different Types together | ✓ | (Query by Property can do this too) |
-| Same Type with consistent structure | (Either works) | ✓ |
-| Curated reading list, project box | ✓ | |
-| Daily worklist, reading queue, status board | | ✓ |
+| Membership | Hand-picked | Auto-filtered by criteria |
+| Mixed Types | Natural fit | Possible via Property queries, but not the common case |
+| Adding an Object | Manual action | Happens automatically when the Object matches |
+| Best for | Projects, curated lists, reading queues | Filtered slices, dashboards, "everything matching X" |
 
-In practice, you often use both together: a project Collection that you populate manually, with an inline Query inside it showing "Tasks where Project = This Object" for live status.
+Often you'll use both. A project Collection populated by hand, with an [Inline Query](../../advanced/feature-list-by-platform/inline-queries.md) inside it showing live status — like "Tasks in this Collection where Status = In Progress."
 
 ### Tips
 
 {% hint style="info" %}
-**Use Collections for projects, Queries for views into your data.** A "Q1 Marketing" project lives in a Collection (because its membership is curated). "All my in-progress Tasks" lives in a Query (because membership is determined by status).
+**Pin project Collections to your sidebar.** A pinned project Collection acts as a project hub — one click to see everything in scope.
 {% endhint %}
 
 {% hint style="info" %}
-**Pin Collections like other Objects.** A pinned project Collection in your sidebar acts as a project hub — one click to see everything in scope.
+**Use Gallery layout for visual Collections.** Reading lists, recipe collections, photo archives benefit from cover images. Switch in the layout switcher.
 {% endhint %}
 
 {% hint style="info" %}
-**Use the Gallery layout for visual Collections.** Reading lists, recipe collections, photo archives all benefit from cover images. Switch to Gallery in the layout switcher.
+**Drop folders onto the sidebar to import.** This is the fastest way to onboard an on-disk archive — Anytype creates the Collection and converts files automatically.
 {% endhint %}
 
 {% hint style="info" %}
-**Drop a folder onto the sidebar to convert it.** This is the fastest way to onboard an on-disk archive — Anytype creates a Collection that mirrors the folder, with files as File Objects inside.
+**Don't worry about choosing between Collection and Query right away.** You can convert in either direction later — and you can use both for the same project. Start with whatever feels natural.
 {% endhint %}
