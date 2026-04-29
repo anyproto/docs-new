@@ -14,11 +14,11 @@ Over time, these connections become incredibly valuable. You can trace how ideas
 
 Anytype offers three ways to create links, each useful in different situations:
 
-| Method | What it does | Best for |
-|--------|-------------|----------|
-| **Block Links** | Adds a visible card or text link to another Object | Prominent references you want readers to see |
-| **Inline Links** | Inserts a mention (@) inside your text | Casual references within a sentence |
-| **Property Links** | Connects Objects through a typed Property | Structured relationships (e.g., Task → Project) |
+| Method             | What it does                                       | Best for                                        |
+| ------------------ | -------------------------------------------------- | ----------------------------------------------- |
+| **Block Links**    | Adds a visible card or text link to another Object | Prominent references you want readers to see    |
+| **Inline Links**   | Inserts a mention (@) inside your text             | Casual references within a sentence             |
+| **Property Links** | Connects Objects through a typed Property          | Structured relationships (e.g., Task → Project) |
 
 ### Creating New Links
 
@@ -29,7 +29,7 @@ Directly through the editor by using:
 1. **Block Links.** Type "/" to invoke a command bar, and then look for the `Link to Object` option in the menu. These can appear either as text or as cards.
 2. **Inline Links**. Type @ or \[\[ to invoke the Object picker menu.
 
-<div><figure><img src="../../.gitbook/assets/image (16) (1) (2).png" alt=""><figcaption><p>Link Blocks</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Inline Mentions</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Link Blocks</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Inline Mentions</p></figcaption></figure></div>
 
 With Properties by assigning an Object Property Type in the Object menu.
 

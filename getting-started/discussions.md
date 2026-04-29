@@ -22,15 +22,13 @@ Every Object can hold a Discussion. Open the Object and switch to the Discussion
 
 Posts in a Discussion can include:
 
-- Code blocks with syntax highlighting
-- Checkboxes for tracking action items inside a thread
-- Attachments (files, images, embeds)
-- Inline links to other Objects with `@` mentions
-- Standard text formatting (bold, italic, lists)
+* Code blocks with syntax highlighting
+* Checkboxes for tracking action items inside a thread
+* Attachments (files, images, embeds)
+* Inline links to other Objects with `@` mentions
+* Standard text formatting (bold, italic, lists)
 
 Once posted, you can edit your own messages, react with emoji, and reply to specific posts to build a threaded conversation.
-
-<figure><img src="../.gitbook/assets/discussion-tab.png" alt=""><figcaption><p>The Discussion tab on an Object</p></figcaption></figure>
 
 ### Starting a Discussion
 
@@ -57,31 +55,31 @@ You'll receive a notification when someone reacts to your post — turn this off
 
 Right-click your own post (or use the three-dot menu on hover) to:
 
-- **Edit** — your post stays in place but is marked as edited
-- **Copy text** — copy the post content to your clipboard
-- **Delete** — remove the post entirely (this can't be undone)
+* **Edit** — your post stays in place but is marked as edited
+* **Copy text** — copy the post content to your clipboard
+* **Delete** — remove the post entirely (this can't be undone)
 
 You can only edit or delete your own posts. Channel Owners cannot edit other members' posts.
 
 ### Discussions vs. Chats
 
-| | Discussion | Chat |
-|---|---|---|
-| Lives on | A specific Object | A standalone Channel-level conversation |
-| Best for | Feedback, decisions, questions about *this* Object | Ongoing conversations, announcements, casual talk |
-| Searchable across Objects | No (per-Object) | Yes (Cmd/Ctrl + F) |
-| Shows in Object's history | Yes | No |
-| Notifications | Per-Object setting | Per-Chat setting |
+|                           | Discussion                                         | Chat                                              |
+| ------------------------- | -------------------------------------------------- | ------------------------------------------------- |
+| Lives on                  | A specific Object                                  | A standalone Channel-level conversation           |
+| Best for                  | Feedback, decisions, questions about _this_ Object | Ongoing conversations, announcements, casual talk |
+| Searchable across Objects | No (per-Object)                                    | Yes (Cmd/Ctrl + F)                                |
+| Shows in Object's history | Yes                                                | No                                                |
+| Notifications             | Per-Object setting                                 | Per-Chat setting                                  |
 
 {% hint style="info" %}
-Use Discussions when the conversation is *about* a specific page or task. Use Chats when the conversation is between people and might wander across topics.
+Use Discussions when the conversation is _about_ a specific page or task. Use Chats when the conversation is between people and might wander across topics.
 {% endhint %}
 
 ### Permissions
 
-- **Owners and Editors** can post, edit their own posts, and delete their own posts.
-- **Viewers** can read Discussions but cannot post.
-- A Discussion is part of the Object — if the Object is deleted, the Discussion goes with it.
+* **Owners and Editors** can post, edit their own posts, and delete their own posts.
+* **Viewers** can read Discussions but cannot post.
+* A Discussion is part of the Object — if the Object is deleted, the Discussion goes with it.
 
 ### Notifications
 

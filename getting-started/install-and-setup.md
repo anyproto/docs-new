@@ -2,11 +2,11 @@
 
 You can download the latest version of Anytype for your device at [download.anytype.io](https://download.anytype.io).
 
-<figure><img src="../.gitbook/assets/image (54) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/download desktop.png" alt=""><figcaption></figcaption></figure>
 
 ### Create your vault
 
-<figure><img src="../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Start.png" alt=""><figcaption></figcaption></figure>
 
 If you haven't created a vault yet, you can easily create one by clicking on `I am new here` and then following the provided instructions.
 
@@ -20,7 +20,7 @@ If you haven't created a vault yet, you can easily create one by clicking on `I 
 Make sure you store your [key.md](vault-and-key/key.md "mention") somewhere safe, and try not to share it with anyone who can't be trusted!
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Key.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -28,7 +28,7 @@ Make sure you store your [key.md](vault-and-key/key.md "mention") somewhere safe
 
 On the contrary, if you already have a vault, click on `I already have a Key` and enter your [key.md](vault-and-key/key.md "mention") to proceed.
 
-<figure><img src="../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Login Back.png" alt=""><figcaption></figcaption></figure>
 
 #### Log-in using the QR code
 
@@ -40,14 +40,16 @@ To log in using the QR code, simply navigate to [#login-key](../advanced/setting
 
 ### Import
 
-If you would like to import some of your existing data into your Space, you can find the instructions on how to do so in [#import](../advanced/data-and-security/import-export/#import "mention").
+If you would like to import some of your existing data into your Space, you can find the instructions on how to do so in [import-export](../advanced/data-and-security/import-export/ "mention").
 
 ### What to expect after install
 
-Once you've created your Vault and saved your Key, you'll land in your first Channel with a clean workspace. From here you can:
+Once you've created your Vault and saved your Key, you'll land in your first Channel — **Get Started** — already populated with example Objects to help you explore. This is your sandbox: poke around, open things, break stuff, no pressure.
 
-* **Create your first Object** — click the + button in the sidebar to start a new Note, Task, or Page
-* **Explore the sidebar** — your Objects are organized by Type in the left panel
-* **Check out the command menu** — type `/` inside any Object to see all available block types and actions
+When you're ready to start your own work, **create a new Channel** for it:
+
+* Click the **+** button at the top of the Vault (the leftmost panel) to create a new Channel.
+* Inside your new Channel, create your first Object — a Note, a Task, or a Page.
+* Type `/` in any Object to start adding rich content: headings, lists, images, embeds.
 
 If you'd like a quick overview of how Anytype's core concepts fit together, start with [Learn the Model](learn-the-model.md).

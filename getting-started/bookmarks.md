@@ -20,21 +20,19 @@ A Bookmark is its own Object Type. When you create one, Anytype fetches metadata
 
 You can then:
 
-- Add your own Properties (Tags, Status, Priority, Project links)
-- Add notes or annotations in the editor
-- Link the Bookmark to other Objects
-- Include it in Queries, Collections, and Discussions
-
-<figure><img src="../.gitbook/assets/bookmark-layout.png" alt=""><figcaption><p>Bookmark layout</p></figcaption></figure>
+* Add your own Properties (Tags, Status, Priority, Project links)
+* Add notes or annotations in the editor
+* Link the Bookmark to other Objects
+* Include it in Queries, Collections, and Discussions
 
 ### Bookmark layout
 
 Bookmarks have their own dedicated layout, separate from the standard Page layout. Each Bookmark displays:
 
-- The page's preview image at the top
-- The page title (editable)
-- A short URL with the site icon
-- A prominent **Open Website** button
+* The page's preview image at the top
+* The page title (editable)
+* A short URL with the site icon
+* A prominent **Open Website** button
 
 This layout is optimized for quickly identifying and opening saved links. You can still add blocks below the bookmark layout if you want to write notes, link to related Objects, or build out additional context.
 
@@ -45,10 +43,10 @@ This layout is optimized for quickly identifying and opening saved links. You ca
 1. Copy a URL from your browser.
 2. Paste it into any Object (or into the sidebar to create a standalone Bookmark).
 3. The paste menu appears with four options:
-   - **Mention** — insert as a clickable link inline with your text
-   - **Bookmark** — create a Bookmark card visible in the editor
-   - **Embed** — embed the page content (works for YouTube, Miro, etc.)
-   - **Link** — paste as plain URL text
+   * **Mention** — insert as a clickable link inline with your text
+   * **Bookmark** — create a Bookmark card visible in the editor
+   * **Embed** — embed the page content (works for YouTube, Miro, etc.)
+   * **Link** — paste as plain URL text
 4. Choose **Bookmark** to create the card.
 
 If you want this to become a standalone Bookmark Object (rather than an inline card), use the three-dot menu on the bookmark card and select **Turn into Object**.
@@ -79,10 +77,10 @@ This pulls the latest title, description, and image from the source URL.
 
 You can override the auto-fetched data:
 
-- **Title** — click the title at the top of the layout and type
-- **Description** — edit the description Property in the Properties panel
-- **Image** — click the preview image and choose **Replace** or **Remove**
-- **URL** — click the URL field and edit
+* **Title** — click the title at the top of the layout and type
+* **Description** — edit the description Property in the Properties panel
+* **Image** — click the preview image and choose **Replace** or **Remove**
+* **URL** — click the URL field and edit
 
 Edits are stored on the Bookmark Object only — they don't affect the original page.
 
@@ -90,10 +88,10 @@ Edits are stored on the Bookmark Object only — they don't affect the original 
 
 Because Bookmarks are Objects with their own Type, you can:
 
-- **Filter by Tag** — create a "Reading List" tag, a "Research" tag, etc.
-- **Pin a Bookmarks Query** to your sidebar to see all your saved links
-- **Add an Object Property** linking each Bookmark to a Project or Topic
-- **Use the Gallery layout** in a Query to see Bookmarks as visual cards
+* **Filter by Tag** — create a "Reading List" tag, a "Research" tag, etc.
+* **Pin a Bookmarks Query** to your sidebar to see all your saved links
+* **Add an Object Property** linking each Bookmark to a Project or Topic
+* **Use the Gallery layout** in a Query to see Bookmarks as visual cards
 
 ### Tips
 

@@ -20,10 +20,10 @@ They're lightweight by design: no settings to configure, no widgets to set up. Y
 
 A Direct Channel is created automatically when you start a conversation with another member. Once created:
 
-- Both members see the Direct Channel in their **Vault sidebar**
-- Either member can post messages, share Objects, react, or pin messages
-- Either member can leave (which removes their side of the channel)
-- Both can mute notifications independently
+* Both members see the Direct Channel in their **Vault sidebar**
+* Either member can post messages, share Objects, react, or pin messages
+* Either member can leave (which removes their side of the channel)
+* Both can mute notifications independently
 
 You can have a Direct Channel with any other member — including members of shared Channels you both belong to. The Direct Channel exists separately from those shared Channels.
 
@@ -44,19 +44,17 @@ There are two ways to start one:
 3. Choose **New Direct Channel**.
 4. Search for the member by name and select them.
 
-<figure><img src="../.gitbook/assets/direct-channel.png" alt=""><figcaption><p>Direct Channel</p></figcaption></figure>
-
 ### What you can do in a Direct Channel
 
 A Direct Channel works like a Chat — you have access to all the same features:
 
-- Send and react to messages
-- Share Objects (drag in from anywhere or use @-mention)
-- Upload files and images
-- Pin messages to the top of the conversation
-- Search messages with Cmd/Ctrl + F
-- Edit and delete your own messages
-- Configure per-channel notifications
+* Send and react to messages
+* Share Objects (drag in from anywhere or use @-mention)
+* Upload files and images
+* Pin messages to the top of the conversation
+* Search messages with Cmd/Ctrl + F
+* Edit and delete your own messages
+* Configure per-channel notifications
 
 Since both members are equal, there's no concept of Owner-only actions inside a Direct Channel.
 

@@ -16,21 +16,21 @@ Most apps treat files as second-class — buried in folders, hard to find again,
 
 This is especially powerful for:
 
-- **Visual collections** — a Query of all images tagged "design inspiration"
-- **Audio notes** — voice memos that can be tagged, linked to projects, and transcribed in their description
-- **Reference files** — PDFs that can be referenced from multiple projects without duplicating
-- **Media libraries** — a Channel-wide view of every video you've uploaded
+* **Visual collections** — a Query of all images tagged "design inspiration"
+* **Audio notes** — voice memos that can be tagged, linked to projects, and transcribed in their description
+* **Reference files** — PDFs that can be referenced from multiple projects without duplicating
+* **Media libraries** — a Channel-wide view of every video you've uploaded
 
 ### File Types
 
 There are four built-in file Types in Anytype:
 
-| Type | Use for | Default layout |
-|---|---|---|
-| **Image** | Photos, screenshots, graphics, illustrations | Image preview at top |
-| **Video** | Recorded video, screen recordings | Embedded player |
-| **Audio** | Voice memos, music, podcasts | Embedded player |
-| **File** | PDFs, documents, archives, anything else | Download link with metadata |
+| Type      | Use for                                      | Default layout              |
+| --------- | -------------------------------------------- | --------------------------- |
+| **Image** | Photos, screenshots, graphics, illustrations | Image preview at top        |
+| **Video** | Recorded video, screen recordings            | Embedded player             |
+| **Audio** | Voice memos, music, podcasts                 | Embedded player             |
+| **File**  | PDFs, documents, archives, anything else     | Download link with metadata |
 
 Each Type has its own default Properties (size, file format, dimensions for images, duration for audio/video) and its own dedicated layout optimized for the content.
 
@@ -48,17 +48,17 @@ The file is uploaded, the Object is created with the right Type, and it opens in
 
 Drag any file from your operating system onto:
 
-- **A Type page in the sidebar** — creates a new Object of that Type
-- **A widget** — same behavior
-- **An open Object's editor** — embeds the file as a block *and* creates a standalone Object
+* **A Type page in the sidebar** — creates a new Object of that Type
+* **A widget** — same behavior
+* **An open Object's editor** — embeds the file as a block _and_ creates a standalone Object
 
 #### Paste from clipboard
 
 If you've copied an image from a screenshot tool or another app, paste it directly with Cmd/Ctrl + V into:
 
-- The sidebar — creates a new Image Object
-- An open Object — embeds inline (and creates the Object behind the scenes)
-- A Chat — sends as an attachment (and creates the Object)
+* The sidebar — creates a new Image Object
+* An open Object — embeds inline (and creates the Object behind the scenes)
+* A Chat — sends as an attachment (and creates the Object)
 
 #### Drop a folder
 
@@ -66,14 +66,12 @@ Drop a folder of files onto the sidebar and Anytype converts it into a **Collect
 
 This is the fastest way to bring a large library — a photo archive, a music collection, a project's reference materials — into your Channel.
 
-<figure><img src="../.gitbook/assets/folder-to-collection.png" alt=""><figcaption><p>Drop a folder to create a Collection of File Objects</p></figcaption></figure>
-
 ### File Block vs. File Object
 
 When you embed a file inline in an editor, you can choose how it's displayed:
 
-- **As a preview** — the file is shown inline (image visible, video player embedded, etc.)
-- **As a link** — a compact link that opens the file when clicked
+* **As a preview** — the file is shown inline (image visible, video player embedded, etc.)
+* **As a link** — a compact link that opens the file when clicked
 
 The default is set in **Vault Settings > Application > Editor Personalization > File block default style**.
 
@@ -91,23 +89,23 @@ You can also create a Query by Type for finer control — filter to only files l
 
 Like any Object, a File can have:
 
-- **Tags** — for categorization
-- **Description** — typed by you (useful for transcribing voice notes or describing image content)
-- **Object links** — link a screenshot to the project it documents
-- **Custom Properties** — add anything you'd track
+* **Tags** — for categorization
+* **Description** — typed by you (useful for transcribing voice notes or describing image content)
+* **Object links** — link a screenshot to the project it documents
+* **Custom Properties** — add anything you'd track
 
 #### Previewing files
 
-- **Images** — click to open in fullscreen. Click outside or press Esc to close. Double-click to zoom.
-- **Audio/Video** — click to play in the embedded player.
-- **Files** — click to download (or open in the default app on desktop).
+* **Images** — click to open in fullscreen. Click outside or press Esc to close. Double-click to zoom.
+* **Audio/Video** — click to play in the embedded player.
+* **Files** — click to download (or open in the default app on desktop).
 
 #### Copying images
 
 You can copy images directly to your clipboard:
 
-- From a block in the editor (right-click > Copy)
-- From the Object menu when an image is open in fullscreen
+* From a block in the editor (right-click > Copy)
+* From the Object menu when an image is open in fullscreen
 
 This makes it easy to paste the same image into another Object or external tool.
 

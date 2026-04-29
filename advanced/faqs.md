@@ -129,7 +129,7 @@ You can still open any Anytype links by simply pasting them in the global search
 
 You can use the orange 'handle' to the left of each block to create parent/child blocks or new columns in your editor by dragging and dropping them.
 
-<div><figure><img src="../.gitbook/assets/image (69) (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 

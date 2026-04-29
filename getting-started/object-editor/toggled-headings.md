@@ -16,10 +16,10 @@ Long Objects become hard to navigate when everything is expanded at once. Toggle
 
 This is especially useful for:
 
-- **Outlines and plans** — see the structure first, expand a section to dive in
-- **Meeting notes** — collapse old meetings, keep recent ones expanded
-- **Reference docs** — collapse rarely-used sections so they don't crowd the page
-- **Long-form drafts** — fold finished sections away while you focus on the next one
+* **Outlines and plans** — see the structure first, expand a section to dive in
+* **Meeting notes** — collapse old meetings, keep recent ones expanded
+* **Reference docs** — collapse rarely-used sections so they don't crowd the page
+* **Long-form drafts** — fold finished sections away while you focus on the next one
 
 ### How it works
 
@@ -54,9 +54,9 @@ When you collapse "Project Overview", the entire "Goals" and "Timeline" sections
 
 Type these at the start of a line:
 
-- `#>` + space → Toggled Heading 1
-- `##>` + space → Toggled Heading 2
-- `###>` + space → Toggled Heading 3
+* `#>` + space → Toggled Heading 1
+* `##>` + space → Toggled Heading 2
+* `###>` + space → Toggled Heading 3
 
 #### From a regular toggle
 
@@ -75,8 +75,6 @@ To turn a regular heading into a toggled heading:
 
 When you convert, **everything beneath the heading** becomes a child of the toggle automatically — until the next heading of the same or higher level. You don't need to re-indent anything by hand.
 
-<figure><img src="../.gitbook/assets/toggled-heading.png" alt=""><figcaption><p>A Toggled Heading containing nested content</p></figcaption></figure>
-
 ### Working with Toggled Headings
 
 #### Expand or collapse one
@@ -87,8 +85,8 @@ Click the triangle (▶ / ▼) to the left of the heading to toggle.
 
 Right-click anywhere inside the editor and choose:
 
-- **Expand all toggles** — opens every toggle on the page
-- **Collapse all toggles** — closes every toggle on the page
+* **Expand all toggles** — opens every toggle on the page
+* **Collapse all toggles** — closes every toggle on the page
 
 This works on regular toggles and Toggled Headings together.
 
@@ -104,10 +102,10 @@ Click the block handle on the heading > **Turn into > Heading 1** (or 2, or 3, w
 
 ### Behavior in different views
 
-- **In the editor** — toggles work as described above.
-- **In Flow view** — toggle state is preserved per Object.
-- **In PDF export** — collapsed sections are still exported. Choose **Expand all** before export if you want a tighter PDF.
-- **In Markdown export** — toggle state is not preserved (Markdown has no native toggle syntax); all content is exported as standard headings.
+* **In the editor** — toggles work as described above.
+* **In Flow view** — toggle state is preserved per Object.
+* **In PDF export** — collapsed sections are still exported. Choose **Expand all** before export if you want a tighter PDF.
+* **In Markdown export** — toggle state is not preserved (Markdown has no native toggle syntax); all content is exported as standard headings.
 
 ### Tips
 

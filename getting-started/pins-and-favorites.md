@@ -14,10 +14,10 @@ Understanding the difference is important — especially in shared Channels wher
 
 Use My Favorites for:
 
-- Objects you reference daily
-- Personal Queries (e.g., a "My Tasks" Query filtered to your assignee)
-- Drafts and works-in-progress
-- Anything you want quick access to without making it a team-level recommendation
+* Objects you reference daily
+* Personal Queries (e.g., a "My Tasks" Query filtered to your assignee)
+* Drafts and works-in-progress
+* Anything you want quick access to without making it a team-level recommendation
 
 **To add an Object to My Favorites:**
 
@@ -33,10 +33,10 @@ To remove, click the star again or right-click in the sidebar > **Remove from Fa
 
 Use Shared Pins for:
 
-- Onboarding documents for new members
-- Channel guidelines or norms
-- The current sprint board, project roadmap, or active tracker
-- Any Object you want every member to find without searching
+* Onboarding documents for new members
+* Channel guidelines or norms
+* The current sprint board, project roadmap, or active tracker
+* Any Object you want every member to find without searching
 
 **To pin an Object as a Shared Pin:**
 
@@ -50,13 +50,13 @@ Only Owners can add or remove Shared Pins. Editors and Viewers see Shared Pins b
 
 ### Side by side
 
-| | My Favorites | Shared Pins |
-|---|:---:|:---:|
-| Visible to | Just you | All members |
-| Synced across your devices | Yes | Yes (for all members) |
-| Who can add | Anyone | Owner only |
-| Sidebar section | "My Favorites" | "Shared Pins" |
-| Use for | Personal quick-access | Team-wide important Objects |
+|                            |      My Favorites     |         Shared Pins         |
+| -------------------------- | :-------------------: | :-------------------------: |
+| Visible to                 |        Just you       |         All members         |
+| Synced across your devices |          Yes          |    Yes (for all members)    |
+| Who can add                |         Anyone        |          Owner only         |
+| Sidebar section            |     "My Favorites"    |        "Shared Pins"        |
+| Use for                    | Personal quick-access | Team-wide important Objects |
 
 ### Where they appear
 
@@ -69,8 +69,6 @@ You can hide either section if you don't use it:
 3. Choose **Hide section**.
 
 To bring it back, open **Manage Sections** from the Channel context menu.
-
-<figure><img src="../.gitbook/assets/favorites-and-pins.png" alt=""><figcaption><p>My Favorites and Shared Pins as separate sidebar sections</p></figcaption></figure>
 
 ### Reordering
 
@@ -87,5 +85,5 @@ Within either section, drag-and-drop to reorder. Changes to **My Favorites** are
 {% endhint %}
 
 {% hint style="info" %}
-**Use My Favorites for noisy projects.** If a teammate has pinned the whole quarterly planning doc structure as Shared Pins, you can ignore it and pin only the docs *you* care about as My Favorites.
+**Use My Favorites for noisy projects.** If a teammate has pinned the whole quarterly planning doc structure as Shared Pins, you can ignore it and pin only the docs _you_ care about as My Favorites.
 {% endhint %}

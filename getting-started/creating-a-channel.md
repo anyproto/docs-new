@@ -22,11 +22,11 @@ The Home is the most important choice — it sets the tone for what the Channel 
 
 Your Home can be any of three things:
 
-| Home Type | Best for | What members see when they enter |
-|---|---|---|
-| **Chat** | Conversational Channels — communities, social, casual collaboration | A live message stream |
-| **Page** | Documentation, wikis, reference Channels, personal notebooks | A single Object with content and links |
-| **Collection** | Project Channels with multiple related items | A curated list of Objects in your chosen layout |
+| Home Type      | Best for                                                            | What members see when they enter                |
+| -------------- | ------------------------------------------------------------------- | ----------------------------------------------- |
+| **Chat**       | Conversational Channels — communities, social, casual collaboration | A live message stream                           |
+| **Page**       | Documentation, wikis, reference Channels, personal notebooks        | A single Object with content and links          |
+| **Collection** | Project Channels with multiple related items                        | A curated list of Objects in your chosen layout |
 
 You can change the Home later in **Channel Settings > Preferences > Homepage** — so don't worry about getting it perfect on day one.
 
@@ -34,27 +34,27 @@ You can change the Home later in **Channel Settings > Preferences > Homepage** �
 
 A Chat-Home Channel feels like a group conversation. Members open it and see the latest messages — they can post, share Objects, react. Use this for:
 
-- Team standups and async chat
-- Communities and interest groups
-- Family or friend Channels
-- Channels where conversation is the main activity, with documents and notes as supporting cast
+* Team standups and async chat
+* Communities and interest groups
+* Family or friend Channels
+* Channels where conversation is the main activity, with documents and notes as supporting cast
 
 #### When to pick Page as Home
 
 A Page-Home Channel feels like a wiki or document. Members open it and land on a specific Object — usually a "welcome" or "overview" page that links out to everything else. Use this for:
 
-- Team documentation
-- Personal knowledge bases (your "second brain")
-- Reference Channels
-- Anywhere the structure is read-first, write-occasionally
+* Team documentation
+* Personal knowledge bases (your "second brain")
+* Reference Channels
+* Anywhere the structure is read-first, write-occasionally
 
 #### When to pick Collection as Home
 
 A Collection-Home Channel feels like a project board or library. Members open it and see a list of Objects — tasks, documents, references, whatever you've added. Use this for:
 
-- Project Channels with mixed content (tasks, notes, files)
-- Reading lists and curated archives
-- Travel planning, event prep, or anything with a defined scope
+* Project Channels with mixed content (tasks, notes, files)
+* Reading lists and curated archives
+* Travel planning, event prep, or anything with a defined scope
 
 ### Step-by-step
 
@@ -64,29 +64,27 @@ A Collection-Home Channel feels like a project board or library. Members open it
 4. **Pick an icon.** Choose an emoji, upload an image, or skip — Anytype generates a default icon.
 5. **Invite members (optional).** You can paste email addresses or skip and generate invite links later. See [Collaboration](collaboration.md) for details on member roles.
 6. **Choose your Home:**
-   - **Chat** — opens a fresh Chat as the landing page
-   - **Page** — creates a new Page Object you can edit
-   - **Collection** — creates a new Collection you can fill with Objects
+   * **Chat** — opens a fresh Chat as the landing page
+   * **Page** — creates a new Page Object you can edit
+   * **Collection** — creates a new Collection you can fill with Objects
 7. **Click Create.** Your new Channel appears in the Vault.
-
-<figure><img src="../.gitbook/assets/channel-creation-flow.png" alt=""><figcaption><p>The channel creation flow walks you through it step by step</p></figcaption></figure>
 
 ### After creating
 
 Once your Channel exists, you'll land on the Home you chose. Some next steps:
 
-- **Customize the sidebar** — pin important Objects, add widgets. See [Sidebar](customize-and-edit-the-sidebar.md).
-- **Set up Types and Properties** — open Channel Settings > Content Model to create or import Types tailored to this Channel's purpose. See [Types](types/README.md).
-- **Invite members** — open Channel Settings > Members to generate invite links. See [Collaboration](collaboration.md).
-- **Pin a Query or Collection as the Home** later — Channel Settings > Preferences > Homepage lets you change what loads first.
+* **Customize the sidebar** — pin important Objects, add widgets. See [Sidebar](customize-and-edit-the-sidebar.md).
+* **Set up Types and Properties** — open Channel Settings > Content Model to create or import Types tailored to this Channel's purpose. See [Types](types/).
+* **Invite members** — open Channel Settings > Members to generate invite links. See [Collaboration](collaboration.md).
+* **Pin a Query or Collection as the Home** later — Channel Settings > Preferences > Homepage lets you change what loads first.
 
 ### Channels with mixed Homes
 
 Even though you pick one Home, every Channel still has access to the full feature set:
 
-- A Chat-Home Channel can still hold Pages, Collections, and Queries — they live in the sidebar
-- A Page-Home Channel can still have Chats — create them inline (`/chat` in the editor) or in the sidebar
-- A Collection-Home Channel can still have a primary Chat for the team
+* A Chat-Home Channel can still hold Pages, Collections, and Queries — they live in the sidebar
+* A Page-Home Channel can still have Chats — create them inline (`/chat` in the editor) or in the sidebar
+* A Collection-Home Channel can still have a primary Chat for the team
 
 The Home is just the **first thing you see**. Everything else is one click away.
 
