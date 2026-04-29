@@ -22,21 +22,9 @@ Make sure you store your [key.md](vault-and-key/key.md "mention") somewhere safe
 
 <figure><img src="../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 
-#### Stay in the loop
-
-Enter your email address to receive tips and tricks from the Anytype team.
-
-<figure><img src="../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
-
-#### Share a bit about yourself
-
-Help us build and improve Anytype by telling us how you plan to use it.
 
 
-
-<div><figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure></div>
-
-### Log-in using your Key
+#### Log-in using your Key
 
 On the contrary, if you already have a vault, click on `I already have a Key` and enter your [key.md](vault-and-key/key.md "mention") to proceed.
 
@@ -58,8 +46,8 @@ If you would like to import some of your existing data into your Space, you can 
 
 Once you've created your Vault and saved your Key, you'll land in your first Channel with a clean workspace. From here you can:
 
-- **Create your first Object** — click the + button in the sidebar to start a new Note, Task, or Page
-- **Explore the sidebar** — your Objects are organized by Type in the left panel
-- **Check out the command menu** — type `/` inside any Object to see all available block types and actions
+* **Create your first Object** — click the + button in the sidebar to start a new Note, Task, or Page
+* **Explore the sidebar** — your Objects are organized by Type in the left panel
+* **Check out the command menu** — type `/` inside any Object to see all available block types and actions
 
 If you'd like a quick overview of how Anytype's core concepts fit together, start with [Learn the Model](learn-the-model.md).

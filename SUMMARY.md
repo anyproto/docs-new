@@ -71,13 +71,13 @@
 
 ## 📽️ Use Cases
 
-* Personal
+* [Personal](use-cases/personal/README.md)
   * [PARA Method](use-cases/para-method-for-note-taking.md)
   * [Daily Notes](use-cases/anytype-editor.md)
   * [Study Notes](use-cases/study-notes.md)
   * [Travel Wiki](use-cases/travel-wiki.md)
   * [Movie Database](use-cases/movie-database.md)
-* Teams
+* [Teams](use-cases/teams/README.md)
   * [Documentation](use-cases/teams/documentation.md)
   * [Task Tracker](use-cases/teams/task-tracker.md)
   * [Project Board](use-cases/teams/project-board.md)

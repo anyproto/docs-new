@@ -1,5 +1,5 @@
 ---
-description: Finally a dive into your graph of objects.
+description: Visualize the connections between your Objects
 ---
 
 # Graph
@@ -16,9 +16,9 @@ In the Graph you can see which Objects are connected together, and the direction
 
 <figure><img src="../../.gitbook/assets/image (108).png" alt="" width="563"><figcaption></figcaption></figure>
 
-On the top right of the screen in your Graph, you can **search** and optimize some settings.&#x20;
+On the top right of the screen in your Graph, you can **search** and optimize some settings.
 
-Toggle appearances for title, arrows, and icons.&#x20;
+Toggle appearances for title, arrows, and icons.
 
 Optimize viewing links, Properties, and unlinked objects. **If you are missing some objects, check to show unlinked objects.**
 
