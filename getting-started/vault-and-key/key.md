@@ -1,6 +1,6 @@
 # Key
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you create your vault, you will receive your very own 12 word mnemonic phrase. This phrase is generated on-device and is the only way to access your vault and decrypt your data.
 
@@ -27,4 +27,4 @@ Encrypted apps work in a way that puts the responsibility for your personal data
 If you've been logged out of Anytype, and haven't stored your Key somewhere else, you only have two options to recover your Key:
 
 1. If you're still logged in on another device, you might still be able to restore your Vault. Just open the app there and copy the Key from your settings.
-2. You can also try recovering your Key from your [OS Key storage manager](../../advanced/faqs.md#how-to-recover-my-key-from-my-os-key-storage-manager).&#x20;
+2. You can also try recovering your Key from your [OS Key storage manager](../../advanced/faqs.md#how-to-recover-my-key-from-my-os-key-storage-manager).

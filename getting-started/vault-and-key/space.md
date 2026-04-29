@@ -15,13 +15,14 @@ Because each Channel is encrypted separately, you have fine-grained control over
 ### How it works
 
 Every Channel has its own:
-- **Graph of Objects** — the notes, tasks, and everything else you create
-- **Sidebar** — customized to show what matters in that workspace
-- **Members & permissions** — you decide who can view or edit
+
+* **Graph of Objects** — the notes, tasks, and everything else you create
+* **Sidebar** — customized to show what matters in that workspace
+* **Members & permissions** — you decide who can view or edit
 
 You can create as many Channels as you need. Use the vault sidebar (the leftmost panel) to switch between them.
 
-<figure><img src="../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/channels (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 It's currently impossible to recover deleted Channels unless you've previously exported them, so be careful when deleting them.
@@ -36,7 +37,7 @@ It's currently impossible to recover deleted Channels unless you've previously e
 5. Share the link with the people you want to invite.
 6. Once they join, you'll see them in the Members list where you can manage their roles.
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt="" width="333"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/shared channel.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Each Channel has its own content model (Types and Properties). If you've set up custom Types in one Channel, they won't automatically appear in another — you'll need to recreate them or use the Experience Gallery to import a template.
