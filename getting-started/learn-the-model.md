@@ -32,24 +32,10 @@ Anytype comes with built-in Types, and you can create your own to match how you 
 
 Properties serve two purposes: they **describe** an Object (like a due date), and they **connect** Objects to each other (like linking a Task to a Project).
 
-### Queries & Collections
+### Lists
 
-Once you have Objects with Types and Properties, you need ways to find and view them.
+Once you have Objects with Types and Properties, you need ways to find and view them. Two ways to group and organize your Objects:
 
-A **Query** is a live filter across your entire Channel. You define criteria — like "all Tasks where Status is In Progress" — and the Query automatically shows matching Objects. When you create or update an Object that matches, it appears in the Query automatically.
+A **Query** is a live list of Objects that share something in common – a Type or a Property. As your Objects change, the Query updates automatically. Every Type in Anytype already comes with its own built-in Query – the full list of all Objects of that Type. So if you just want to see _every Task_, it is already there.
 
 A **Collection** is a manual grouping. You add specific Objects to it by hand. Unlike a Query, a Collection can hold Objects of different Types together — for example, a project Collection might contain tasks, notes, and documents side by side.
-
-### How it all fits together
-
-```
-Vault
-└── Channel (personal, shared, or team)
-    ├── Objects (everything you create)
-    │   ├── each has a Type (Note, Task, Book...)
-    │   └── each has Properties (Status, Due Date, Author...)
-    ├── Queries (live filters to find Objects)
-    └── Collections (manual groupings of Objects)
-```
-
-You don't need to set all of this up before you start — most people begin by creating Objects and gradually add structure as they need it. The rest of the docs cover each concept in detail.
